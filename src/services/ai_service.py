@@ -4,7 +4,7 @@ from DAO.cau_hoi_tra_loi_dao import add_question_answer
 
 ai_service_bp = Blueprint('ai_service', __name__)  # Tạo Blueprint cho AI service
 
-API_KEY = "app-b78TsFpOzdbiHxEg5rK5TwSy"
+API_KEY = ""
 
 @ai_service_bp.route('/chat', methods=['POST'])
 def chat():
